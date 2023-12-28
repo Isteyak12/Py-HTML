@@ -1,1 +1,22 @@
 "This is a random file!" 
+It seems you're trying to execute the `git clone` command directly in the Windows command prompt with the `<` and `>` symbols, which are not part of the command itself. Instead, those symbols represent placeholders often used to indicate where you should substitute your own values.
+
+Here's the correct way to execute the `git clone` command:
+
+```bash
+git clone https://github.com/Isteyak12/Py-HTML.git
+```
+
+Please run this command in your command prompt, ensuring that you've installed Git on your system and are executing it from within an appropriate directory where you want the repository to be cloned.
+
+This command will clone the `Py-HTML` repository from GitHub to your local machine. After cloning, you can navigate into the cloned repository directory using the `cd Py-HTML` command and follow the subsequent steps to add, commit, and push a random file as explained earlier.
+
+
+git clone <repo name.git>
+ 1997  cd Py-HTML
+ 1998  git add random.txt
+ 1999  cd ../
+ 2000  git add random.txt
+ 2001  git commit -m "Add random file"
+ 2002  git push origin main
+ 2003  history
